@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Booking</title>
+  <link rel="stylesheet" href="tickets.css">
+
+  <div class="topnav">
+    <a href="index.html">HOME</a>
+    <a href="categories.html">CATEGORIES OF TURTLES</a>
+    <a href="threats.html">THREATS TO TURTLES</a>
+    <a href="hikkaduwa.html">HIKKADUWA TURTLE HATCHERIE</a>
+    <a href="others.html">OTHER TURTLE HATCHERIE</a>
+    <a href="purchase&donate.html">PURCHASE & DONATE</a>
+  </div>
+  
+  
+</head>
+<body>
+  <h1>Ticket Booking</h1>
+  <div class="container"></div>
+  <section id="dates">
+    <h2>Dates</h2>
+    <input type="date" id="visitDate">
+  </section>
+  <section id="guest">
+    <h2>Guest</h2>
+    <form id="ticketForm">
+
+    
+      <label>
+        <input type="checkbox" name="ticketCategory" value="SLAdult"> SL Adult
+        <input type="number" name="ticketCount" min="0">
+        
+      </label>
+      <label>
+        <input type="checkbox" name="ticketCategory" value="SLChild"> SL Child
+        <input type="number" name="ticketCount" min="0">
+      </label>
+      <label>
+        <input type="checkbox" name="ticketCategory" value="ForeignerAdult"> Foreigner Adult
+        <input type="number" name="ticketCount" min="0">
+      </label>
+      <label>
+        <input type="checkbox" name="ticketCategory" value="ForeignerChild"> Foreigner Child
+        <input type="number" name="ticketCount" min="0">
+      </label>
+      <label>
+        <input type="checkbox" name="ticketCategory" value="Infant"> Infant
+        <input type="number" name="ticketCount" min="0">
+      </label>
+     
+    </form>
+  </section>
+  
+
+ 
+    </form>
+  </section>
+  <section id="duration">
+    <h2>Duration</h2>
+    <label for="timeSlot">Select Time Slot:</label>
+    <select id="timeSlot">
+      <option value="07:00-08:00">07.00 am - 08.00 am</option>
+      <option value="08:00-09:00">08.00 am - 09.00 am</option>
+      <option value="09:00-10:00">09.00 am - 10.00 am</option>
+      <option value="10:00-11:00">10.00 am - 11.00 am (peak)</option>
+      <option value="11:00-12:00">11.00 am - 12.00 pm (peak)</option>
+      <option value="12:00-13:00">12.00 pm - 01.00 pm (peak)</option>
+      <option value="13:00-14:00">01.00 pm - 02.00 pm </option>
+      <option value="14:00-15:00">02.00 pm - 03.00 pm </option>
+      <option value="15:00-16:00">03.00 pm - 04.00 pm (peak)</option>
+      <option value="17:00-18:00">05.00 pm - 06.00 pm (Peak)</option>
+    </select>
+    <h2> Pricing Table</h2>
+    <table id="pricingTable">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Normal Hour Charge (USD)</th>
+          <th>Peak Hour Charge (USD)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Foreigner Adult</td>
+          <td>10</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>Foreigner Child</td>
+          <td>5</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>SL Adult</td>
+          <td>4</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>SL Child</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Infant (SL or Foreigner)(under 4 years) </td>
+          <td>Free</td>
+          <td>Free</td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="calculateCharges">Calculate Charges</button>
+    <p id="totalCharges"></p>
+  </section>
+
+
+  <div class="container">
+
+  <section id="summary">
+    <h2>Summary Table  </Table></h2>
+    <table id="summaryTable">
+      <tbody>
+        <tr>
+          <td>Date</td>
+          <td id="summaryDate"></td>
+        </tr>
+        <tr>
+          <td>Time</td>
+          <td id="summaryTime"></td>
+        </tr>
+        <tr>
+          <td>Duration</td>
+          <td id="summaryDuration"></td>
+        </tr>
+        <tr>
+          <td>Tickets</td>
+          <td> Charges </td>
+          </tr>
+          <tr>
+                <td>SL Adult </td>
+                <td id="SLAdult"></td>
+              </tr>
+              <tr>
+                <td>SL Child</td>
+                <td id="SLChild"></td>
+              </tr>
+              <tr>
+                <td>Foreigner Adult</td>
+                <td id="FAdult"></td>
+              </tr>
+              <tr>
+                <td>Foreigner Child</td>
+                <td id="FChild"></td>
+              </tr>
+              <tr>
+                <td>Infant</td>
+                <td id="Infant"></td>
+              </tr>
+           
+         </td>
+        </tr>
+       
+          
+        <tr>
+          <td>Total Payable</td>
+          <td id="summaryTotal"></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+ 
+  <a href="Details.html" class="button"> Continoue with purchase</a>
+  <script src="script.js"></script>
+
+  <hr style="height:4px;border: width 3px;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+  <section class="footer">
+      <h5>About Us</h5>
+      
+      <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/login/" class="fa fa-facebook"></a>
+  <a href="https://www.twitter.com/login/" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/login/" class="fa fa-instagram"></a>
+      
+  </section>
+</body>
+</html>
