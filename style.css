@@ -1,0 +1,968 @@
+/* home.css */
+*{
+  margin:left 20px;
+  padding: 0;
+  font-family: century;
+}
+.home1{
+ height: 75vh;
+ background-image: url(turtles17.jpg) ;
+ background-position:center;
+ background-size: cover;
+ position: relative;
+}
+body{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.table{
+  padding: auto;
+}
+
+.container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.title {
+  position: relative;
+  top: 500px;
+}
+.logo{
+  margin-top:20px;
+  width:10px;
+}
+p{
+  margin-left:20%;
+  max-width: 700px;
+  margin-top:0px;
+}
+h1{
+  margin-left:auto;
+  margin-right:auto;
+  font-size:53px ;
+  color: rgb(16, 4, 94);
+  margin-top:0%;
+}
+
+p{
+  font-size: 20px;
+  line-height:30px;
+  color: rgb(10, 10, 10);
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #05599a;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f9f8f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1fa4f;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.title img{
+  width: 500px;
+}
+ul {
+  font-size: 20px;
+  line-height:30px;
+  color: rgb(14, 13, 13);
+  font-family: 'Times New Roman', Times, serif;
+}
+h2{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(12, 12, 12);
+  margin-top:0%;
+}
+h3{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(13, 13, 14);
+  margin-top:0%;
+}
+.image1{
+  position: relative;
+  max-width: 100px;
+}
+.center p{
+  position: relative;
+  right: 400px;
+  top: -50%;
+}
+h4{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(10, 10, 10);
+  margin-top:0%;
+}
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  font-size:20px ;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(12, 12, 12);
+  margin-top:2%;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer h5{
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+
+.fa-heart-o{
+color:red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ec533e;
+  color: white;
+}
+/*categories*/
+  
+  *{
+    margin: left 20px;
+    padding: 0;
+    font-family: century;
+}
+.home2{
+   height: 75vh;
+   background-image: url(turtles10.jpg) ;
+   background-position:center;
+   background-size: cover;
+   position: relative;
+
+}
+
+.table{
+    padding: auto;
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.title {
+    position: relative;
+    top: 500px;
+}
+.logo{
+    margin-top:20px;
+    width:10px;
+}
+h1{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:53px ;
+    color: rgb(16, 4, 94);
+    margin-top:0%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #05528c;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f9f8f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1fa4f;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.card2 {
+  background-color: #56a5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.card2:hover {
+  transform: translateY(-5px);
+}
+
+.card2 h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card2 img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 250px;
+}
+
+.card2 p {
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #050303;
+}
+
+th {
+  background-color: #999696;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer h5{
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+
+.fa-heart-o{
+color:red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ec533e;
+  color: white;
+}
+
+
+/*threats*/
+*{
+  margin:left 20px;
+  padding: 0;
+  font-family: century;
+}
+.home3{
+ height: 75vh;
+ background-image: url(t8.jpg) ;
+ background-position:center;
+ background-size: cover;
+ position: relative;
+}
+body{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.table{
+  padding: auto;
+}
+
+.container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.title {
+  position: relative;
+  top: 500px;
+}
+.logo{
+  margin-top:20px;
+  width:10px;
+}
+p{
+  margin-left:20%;
+  max-width: 700px;
+  margin-top:0px;
+}
+p{
+  font-size: 20px;
+  line-height:30px;
+  color: rgb(10, 10, 10);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  margin-left:auto;
+  margin-right:auto;
+  font-size:53px ;
+  color: rgb(0, 5, 9);
+  margin-top:0%;
+}
+h2{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(12, 12, 12);
+  margin-top:0%;
+}
+h3{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(13, 13, 14);
+  margin-top:0%;
+}
+h4{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(10, 10, 10);
+  margin-top:0%;
+}
+h5{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(10, 10, 10);
+  margin-top:0%;
+}
+h6{
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  color: rgb(10, 10, 10);
+  margin-top:0%;
+}
+.image1{
+  position: relative;
+  max-width: 100px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #05599a;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f9f8f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1fa4f;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer h5{
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+
+.fa-heart-o{
+color:red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ec533e;
+  color: white;
+}
+
+/*others*/
+*{
+  margin:left 20px;
+  padding: 0;
+  font-family: century;
+}
+.home4{
+ height: 75vh;
+ background-image: url(t2.jpg) ;
+ background-position:center;
+ background-size: cover;
+ position: relative;
+}
+body{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.table{
+  padding: auto;
+}
+
+.container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.title {
+  position: relative;
+  top: 500px;
+}
+.logo{
+  margin-top:20px;
+  width:10px;
+}
+h1{
+  margin-left:auto;
+  margin-right:auto;
+  font-size:53px ;
+  color: rgb(16, 4, 94);
+  margin-top:0%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #05599a;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f9f8f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1fa4f;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.card3 {
+  width: 650px;
+  background-color: #4cf2a7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 30px;
+  display: inline-block;
+}
+
+.card3-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card3-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.card3-image:hover img {
+  transform: scale(1.1);
+}
+
+.card3-content {
+  padding: 16px;
+}
+
+.card3-content h3 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+.card3-content h4 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.card3-content p {
+  font-size: 14px;
+  color: #72bff7;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer h5{
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+
+.fa-heart-o{
+color:red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ec533e;
+  color: white;
+}
+
+/*purchase&donate*/
+
+*{
+  margin:left 20px;
+  padding: 0;
+  font-family: century;
+}
+.home5{
+ height: 75vh;
+ background-image: url(t10.jpg) ;
+ background-position:center;
+ background-size: cover;
+ position: relative;
+}
+body{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.table{
+  padding: auto;
+}
+
+.container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.title {
+  position: relative;
+  top: 500px;
+}
+.logo{
+  margin-top:20px;
+  width:10px;
+}
+h1{
+  margin-left:auto;
+  margin-right:auto;
+  font-size:53px ;
+  color: rgb(16, 4, 94);
+  margin-top:0%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #05599a;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f9f8f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1fa4f;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.donate-btn,
+.purchase-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3399cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.donate-btn:hover,
+.purchase-btn:hover {
+  background-color: #2288bb;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.turtle-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer h5{
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+
+.fa-heart-o{
+color:red;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ec533e;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  
+  
+  .container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .title {
+    top: 200px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  /* home1 section */
+  
+  .home1 {
+    height: auto;
+    background-image: none;
+  }
+  
+  .title img {
+    width: 300px;
+  }
+  
+  /* home2 section */
+  
+  .home2 {
+    height: auto;
+    background-image: none;
+  }
+  
+  .card2 {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .card2 img {
+    height: 150px;
+  }
+  
+  /* home3 section */
+  
+  .home3 {
+    height: auto;
+    background-image: none;
+  }
+  
+  .card3 {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .card3 img {
+    height: 150px;
+  }
+  
+  /* topnav */
+  
+  .topnav a {
+    display: none;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .topnav.responsive {
+    position: relative;
+  }
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* footer */
+  
+  .footer h5 {
+    font-size: 18px;
+  }
+  
+  .footer p {
+    font-size: 13px;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+  }
+}

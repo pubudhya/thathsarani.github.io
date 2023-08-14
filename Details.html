@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Details</title>
+  <link rel="stylesheet" href="Details.css">
+</head>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="categories.html">CATEGORIES OF TURTLES</a>
+  <a href="threats.html">THREATS TO TURTLES</a>
+  <a href="hikkaduwa.html">HIKKADUWA TURTLE HATCHERIE</a>
+  <a href="others.html">OTHER TURTLE HATCHERIE</a>
+  <a href="purchase&donate.html">PURCHASE & DONATE</a>
+</div>
+
+<body>
+
+
+  <div class="container">
+    <h2>Enter your details</h2>
+    <form id="userDetailsForm">
+      <label for="fullName">Full Name <span class="required">*</span></label>
+      <input type="text" id="fullName" required>
+
+      <label for="mobileNumber">Mobile Number <span class="required">*</span></label>
+      <div class="country-select">
+        <select id="countryCode" required>
+          <option value="+1">+1 (United States)</option>
+          <option value="+44">+44 (United Kingdom)</option>
+          <option value="+91">+91 (India)</option>
+          <option value="+61">+61 (Australia)</option>
+          <option value="+33">+33 (France)</option>
+          <option value="+49">+49 (Germany)</option>
+          <option value="+81">+81 (Japan)</option>
+          <option value="+86">+86 (China)</option>
+          <option value="+39">+39 (Italy)</option>
+          <option value="+7">+7 (Russia)</option>
+          <option value="+27">+27 (South Africa)</option>
+          <option value="+971">+971 (United Arab Emirates)</option>
+          <option value="+82">+82 (South Korea)</option>
+          <option value="+966">+966 (Saudi Arabia)</option>
+          <option value="+31">+31 (Netherlands)</option>
+          <option value="+34">+34 (Spain)</option>
+          <option value="+65">+65 (Singapore)</option>
+          <option value="+52">+52 (Mexico)</option>
+          <option value="+1">+1 (Canada)</option>
+          <option value="+94">+94 (Sri Lanka)</option>
+        </select>
+        <input type="tel" id="mobileNumber" required>
+      </div>
+
+      <label for="email">Email <span class="required">*</span> </label>
+      <input type="email" id="email" required>
+
+      <label for="confirmEmail">Confirm Email <span class="required">*</span> </label>
+      <input type="email" id="confirmEmail" required>
+
+      <label for="gender">Gender <span class="required">*</span> </label>
+      <select id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <button href = 'payment.html'; type="submit" id="continueBtn" disabled>Continue with purchase </button>
+    </form>
+  </div>
+
+  <hr style="height:4px;border: width 3px;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+<section class="footer">
+    <h5>About Us</h5>
+    
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/login/" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/login/" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/login/" class="fa fa-instagram"></a>
+    
+</section>
+
+  <script src="Details.js"></script>
+</body>
+</html>
